@@ -10,7 +10,7 @@ import AuthImage2 from '../authentication/staff.jpg';
 const AuthPage = () => {
   const [email, setEmail] = useState(""); // State for email input
   const [password, setPassword] = useState(""); // State for password input
-  const [errors, setErrors] = useState({}); // State for storing validation errors
+  const [errors, setErrors] = useState({}); // State for storing validation
 
   // Function to validate form inputs
   const validateForm = () => {
